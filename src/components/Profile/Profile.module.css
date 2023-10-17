@@ -23,14 +23,14 @@
   background-color: rgba(168, 116, 168, 0.527);
 }
 
-.name {
+.userName {
   margin-bottom: 0.5rem;
   font-weight: bold;
   font-size: 2.5rem;
 }
 
-.tag,
-.location {
+.userTag,
+.userLocation {
   margin: 0.5rem;
   font-size: 2rem;
   color: #8a8b8e;
