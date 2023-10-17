@@ -55,6 +55,19 @@
   background-color: rgba(241, 241, 241, 0.833);
 }
 
+.statsFollowers {
+  border-radius: 0 0 0 0.5rem;
+}
+
+.statsViews {
+  border-left: 1px solid #d3d5e3;
+  border-right: 1px solid #d3d5e3;
+}
+
+.statsLikes {
+  border-radius: 0 0 0.5rem;
+}
+
 .label {
   padding-bottom: 0.5rem;
   color: #8a8b8e;
