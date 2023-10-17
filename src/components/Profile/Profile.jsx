@@ -11,17 +11,17 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
     </div>
 
     <ul className={css.stats}>
-      <li>
-        <span class="label">Followers</span>
-        <span class="quantity">1000</span>
+      <li className={css.statsFollowers}>
+        <span className={css.label}>Followers</span>
+        <span className={css.quantity}>{stats.followers}</span>
       </li>
-      <li>
-        <span class="label">Views</span>
-        <span class="quantity">2000</span>
+      <li className={css.statsViews}>
+        <span className={css.label}>Views</span>
+        <span className={css.quantity}>{stats.views}</span>
       </li>
-      <li>
-        <span class="label">Likes</span>
-        <span class="quantity">3000</span>
+      <li className={css.statsLikes}>
+        <span className={css.label}>Likes</span>
+        <span class={css.quantity}>{stats.likes}</span>
       </li>
     </ul>
   </div>;
@@ -32,5 +32,5 @@ Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  //   stats: PropTypes.object.isRequired,
+  stats: PropTypes.object.isRequired,
 };
