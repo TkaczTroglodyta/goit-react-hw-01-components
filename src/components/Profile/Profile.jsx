@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
-export const Profile = ({ username, tag, location, avatar, stats }) => {
+export const Profile = ({ username, tag, location, avatar, stats }) => (
   <div className={css.profile}>
     <div className={css.description}>
       <img src={avatar} alt="User avatar" className={css.avatar} />
@@ -21,16 +21,16 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </li>
       <li className={css.statsLikes}>
         <span className={css.label}>Likes</span>
-        <span class={css.quantity}>{stats.likes}</span>
+        <span className={css.quantity}>{stats.likes}</span>
       </li>
     </ul>
-  </div>;
-};
+  </div>
+);
 
 Profile.propTypes = {
-  avatar: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
   stats: PropTypes.object.isRequired,
 };
