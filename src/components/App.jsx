@@ -2,7 +2,6 @@ export const App = ({ children }) => {
   return (
     <div
       style={{
-        // height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -12,7 +11,6 @@ export const App = ({ children }) => {
       }}
     >
       {children}
-      {/* React homework template */}
     </div>
   );
 };
