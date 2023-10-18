@@ -5,7 +5,7 @@
   max-width: 40%;
   margin-top: 5vh;
   box-shadow: 0px 3px 6px rgba(208, 218, 230, 0.9);
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   background-color: #fff;
 }
 
@@ -27,14 +27,15 @@
 .userName {
   margin-bottom: 0.5rem;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  color: #122236;
 }
 
 .userTag,
 .userLocation {
   margin: 0.5rem;
-  font-size: 2rem;
-  color: #8a8b8e;
+  font-size: 1.1rem;
+  color: #808f9d;
 }
 
 .stats {
@@ -53,7 +54,7 @@
   font-size: 1.5rem;
   text-align: center;
   border-top: 1px solid #d3d5e3;
-  background-color: rgba(241, 241, 241, 0.833);
+  background-color: rgba(243, 246, 249, 0.833);
 }
 
 .statsFollowers {
