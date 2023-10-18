@@ -27,3 +27,26 @@
   padding: 0;
   list-style: none;
 }
+
+.statList > .statListTitle,
+.statList > .statListNoTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.statListTitle:first-child {
+  border-radius: 0 0 0 0.5rem;
+}
+
+.statListTitle:last-child {
+  border-radius: 0.5rem 0 0.5rem;
+}
+
+.statListNoTitle:first-child {
+  border-radius: 0 0 0 0.5rem;
+}
+
+.statListNoTitle:last-child {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
