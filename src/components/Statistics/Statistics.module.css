@@ -1,0 +1,8 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-top: 5vh;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0px 3px 6px rgba(208, 218, 230, 0.9));
+}
