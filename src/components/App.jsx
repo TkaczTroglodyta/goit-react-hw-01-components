@@ -6,8 +6,8 @@ export const App = ({ children }) => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
+        paddingBottom: 50,
+        backgroundColor: '#E7ECF2',
       }}
     >
       {children}
