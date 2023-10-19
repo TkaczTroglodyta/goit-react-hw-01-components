@@ -40,11 +40,11 @@
 }
 
 .statListTitle:last-child {
-  border-radius: 0.5rem 0 0.5rem;
+  border-radius: 0 0 0.5rem;
 }
 
 .statListNoTitle:first-child {
-  border-radius: 0 0 0 0.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .statListNoTitle:last-child {
