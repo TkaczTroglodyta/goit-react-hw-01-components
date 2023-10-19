@@ -3,8 +3,14 @@ import css from './FriendList.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => (
   <li className={css.item}>
-    <span className={isOnline ? css.online : css.offline}></span>
+    <span className={isOnline ? css.statusOn : css.statusOff}></span>
     <img className={css.avatar} alt="User avatar" src={avatar} width="48" />
     <p className={css.name}>{name}</p>
   </li>
 );
+
+FriendListItem.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
+};
