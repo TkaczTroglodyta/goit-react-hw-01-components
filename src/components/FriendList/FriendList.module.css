@@ -6,29 +6,52 @@
 
 .item {
   display: grid;
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: 28px 1fr 3fr;
   align-items: center;
   font-size: 1.1rem;
   width: 100%;
   margin-top: 2vh;
-  padding: 8px;
+  padding: 0.4rem;
   box-shadow: 0 3px 3px rgba(208, 218, 230, 0.9);
   border-radius: 0.3rem;
   background-color: #fff;
 }
 
-.statusOn,
+/* .statusOn,
 .statusOff {
   width: 15px;
   height: 15px;
   margin: auto 0.8rem;
   border-radius: 50%;
+} */
+
+.status {
+  width: 15px;
+  height: 15px;
+  margin: auto 0.3rem;
+  border-radius: 50%;
 }
 
 .statusOn {
+  composes: status;
   background-color: lightseagreen;
 }
 
 .statusOff {
+  composes: status;
   background-color: red;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 0.6rem;
 }

@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .avatar {
@@ -27,7 +27,7 @@
 
 .userName {
   margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.5rem;
   color: #3d4c61;
 }
@@ -36,6 +36,7 @@
 .userLocation {
   margin: 0.5rem;
   font-size: 1.1rem;
+  font-weight: 500;
   color: #808f9d;
 }
 
@@ -74,10 +75,11 @@
 .label {
   padding-bottom: 0.5rem;
   font-size: 0.9rem;
+  font-weight: 500;
   color: #808f9d;
 }
 .quantity {
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 0.5rem;
   color: #3d4c61;
 }
