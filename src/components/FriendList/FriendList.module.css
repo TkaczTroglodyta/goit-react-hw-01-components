@@ -1,5 +1,17 @@
 .friendList {
-  margin: 0 auto;
+  margin: 5vh;
   padding: 0;
   list-style: none;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 3fr 5fr;
+  align-items: center;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-top: 2vh;
+  box-shadow: 0 3px 3px rgba(208, 218, 230, 0.9);
+  border-radius: 0.3rem;
+  background-color: #fff;
 }
