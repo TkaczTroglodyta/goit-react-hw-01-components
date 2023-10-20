@@ -12,8 +12,8 @@ import data from 'components/Statistics/data.json';
 import { FriendList } from 'components/FriendList/FriendList';
 import friends from 'components/FriendList/friends.json';
 
-// import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
-// import transactions from 'components/TransactionHistory/transactions.json';
+import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
+import transactions from 'components/TransactionHistory/transactions.json';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
       <FriendList friends={friends} />
-      {/* <TransactionHistory items={transactions} />; */}
+      <TransactionHistory items={transactions} />;
     </App>
   </React.StrictMode>
 );
