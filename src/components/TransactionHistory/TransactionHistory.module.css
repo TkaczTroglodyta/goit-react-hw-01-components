@@ -19,6 +19,20 @@
 .valueRow:nth-child(even) {
   background-color: #ecf1f3;
 }
+
+.transactionData {
+  padding: 0.7rem;
+  font-size: 0.9rem;
+}
+
+.valueRow:last-child .transactionData:first-child {
+  border-radius: 0 0 0 0.3rem;
+}
+
+.valueRow:last-child .transactionData:last-child {
+  border-radius: 0 0 0.3rem 0;
+}
+
 .headerColumn {
   width: 30%;
   padding: 1rem 5rem;
@@ -31,7 +45,9 @@
 }
 
 .headerColumn:first-child {
-  border-radius: 0.4rem 0 0 0;
+  border-radius: 0.3rem 0 0 0;
 }
-.transactionData {
+
+.headerColumn:last-child {
+  border-radius: 0 0.3rem 0 0;
 }
